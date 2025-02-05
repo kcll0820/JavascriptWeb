@@ -1,0 +1,22 @@
+.countryList {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 20px;
+  background-color: #e6e6e6;
+}
+
+.countryList > li {
+  display: flex;
+}
+
+.country {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.country > h1 {
+  font-size: 30px;
+}
